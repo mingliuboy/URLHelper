@@ -2,7 +2,7 @@ osx_image: xcode7.3
 
 language: objective-c
 
-xcode_project: URLHelper.xcodeproj
+xcode_project: URLHelpers/URLHelper.xcodeproj
 
-script: xcodebuild -project URLHelper.xcodeproj -scheme "URLHelper" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=latest'
+script: xcodebuild -project URLHelpers/URLHelper.xcodeproj -scheme "URLHelper" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=latest'
 
