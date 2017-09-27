@@ -4,5 +4,5 @@ language: objective-c
 
 xcode_project: URLHelpers/URLHelper.xcodeproj
 
-script: xcodebuild -project URLHelpers/URLHelper.xcodeproj -scheme "URLHelper" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=latest'
+script: xcodebuild test -project URLHelpers/URLHelper.xcodeproj -scheme "URLHelper" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=latest'
 
